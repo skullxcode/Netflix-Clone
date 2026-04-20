@@ -25,3 +25,21 @@
   font-family: "DM Sans", sans-serif;
   width: 100%;
 }
+
+.searchbar input::placeholder {
+  color: #666;
+}
+
+.searchbar-clear {
+  background: none;
+  border: none;
+  color: #888;
+  cursor: pointer;
+  font-size: 0.85rem;
+  padding: 0;
+  transition: color 0.2s;
+}
+
+.searchbar-clear:hover {
+  color: #fff;
+}
